@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #D4FF00;
+  --bg-color: #121212;
+  --bg-darker: #0a0a0a;
+  --card-bg: #1E1E1E;
+  --text-color: #FFFFFF;
+  --text-muted: #B0B0B0;
+  --transition: all 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Custom Scrollbar if needed, but keeping it simple for now */
+
+/* Helper classes if arbitrary values get too messy */
+.text-stroke {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+}
