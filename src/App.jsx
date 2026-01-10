@@ -33,7 +33,7 @@ function App() {
      
       <BlogSection />
       <Pricing />
-       <LeadCapture />
+      <LeadCapture />
       <Contact />
       <Footer />
       <BackToTop />

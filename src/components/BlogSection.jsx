@@ -5,21 +5,21 @@ const BlogSection = () => {
         {
             title: '5 Tips for Muscle Hypertrophy',
             category: 'Training',
-            image: '/images/blog1.jpg', // Placeholder
+            image: '/images/BenchPress.jpg', // Muscle building
             excerpt: 'Maximize your gains with these scientifically proven techniques for muscle growth.',
             date: 'Oct 15, 2023'
         },
         {
             title: 'Ketogenic Diet Explained',
             category: 'Nutrition',
-            image: '/images/blog2.jpg', // Placeholder
+            image: '/images/Crunches.jpg', // Core/fitness nutrition
             excerpt: 'Is the keto diet right for you? We break down the pros, cons, and how to start.',
             date: 'Nov 02, 2023'
         },
         {
             title: 'Recovery: The Missing Link',
             category: 'Wellness',
-            image: '/images/blog3.jpg', // Placeholder
+            image: '/images/Plank.jpg', // Balance and wellness
             excerpt: 'Why rest days and sleep are just as important as your time in the gym.',
             date: 'Nov 20, 2023'
         }
@@ -42,10 +42,12 @@ const BlogSection = () => {
                                 <div className="absolute top-4 left-4 bg-primary text-background text-xs font-bold px-3 py-1 rounded uppercase z-10">
                                     {post.category}
                                 </div>
-                                {/* Placeholder gradient */}
-                                <div className="w-full h-full bg-gradient-to-br from-card to-[#2a2a2a] group-hover:scale-105 transition-transform duration-500 flex items-center justify-center">
-                                    <i className="fas fa-file-alt text-4xl text-white/10"></i>
-                                </div>
+                                {/* Blog Image */}
+                                <img
+                                    src={post.image}
+                                    alt={post.title}
+                                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-70"
+                                />
                             </div>
                             <div className="text-sm text-text-muted mb-2">{post.date}</div>
                             <h3 className="text-xl font-bold uppercase mb-3 line-clamp-2 group-hover:text-primary transition-colors">

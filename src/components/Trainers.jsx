@@ -5,21 +5,21 @@ const Trainers = () => {
         {
             name: 'John Doe',
             specialty: 'CrossFit & HIIT',
-            image: '/images/trainer1.jpg', // Placeholder
+            image: '/images/trainers/Trainer1.jpg',
             bio: 'Certified CrossFit L3 Trainer with 10 years of experience pushing limits.',
             socials: { instagram: '#', twitter: '#' }
         },
         {
             name: 'Sarah Smith',
             specialty: 'Yoga & Pilates',
-            image: '/images/trainer2.jpg', // Placeholder
+            image: '/images/trainers/Trainer2.jpg',
             bio: 'RYT-500 Yoga Instructor specializing in flexibility and mindfulness.',
             socials: { instagram: '#', facebook: '#' }
         },
         {
             name: 'Mike Tyson',
             specialty: 'Boxing & Strength',
-            image: '/images/trainer3.jpg', // Placeholder
+            image: '/images/trainers/Trainer3.jpg',
             bio: 'Former pro boxer dedicated to teaching the art of the sweet science.',
             socials: { instagram: '#', twitter: '#' }
         }
@@ -35,10 +35,13 @@ const Trainers = () => {
                     {trainers.map((trainer, index) => (
                         <div key={index} className="group relative overflow-hidden rounded-2xl">
                             <div className="aspect-[3/4] bg-card relative">
-                                {/* Placeholder for image if not found, use a gradient bg */}
-                                <div className="absolute inset-0 bg-gradient-to-br from-card to-background-darker flex items-center justify-center text-text-muted">
-                                    <span className="text-6xl opacity-20"><i className="fas fa-user"></i></span>
-                                    {/* <img src={trainer.image} alt={trainer.name} className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" /> */}
+                                {/* Trainer Image */}
+                                <div className="absolute inset-0">
+                                    <img
+                                        src={trainer.image}
+                                        alt={trainer.name}
+                                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 grayscale group-hover:grayscale-0"
+                                    />
                                 </div>
                                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/90 to-transparent p-6 pt-20 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                                     <h3 className="text-2xl font-bold uppercase text-primary">{trainer.name}</h3>
