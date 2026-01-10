@@ -33,20 +33,27 @@ const Hero = () => {
             {/* Overlay */}
             <div className="absolute top-0 left-0 w-full h-full bg-black/60 z-10"></div>
 
+            {/* Video Background (Optional) */}
+            {/* 
+            <video autoPlay loop muted className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-50">
+                <source src="/path/to/video.mp4" type="video/mp4" />
+            </video> 
+            */}
+
             {/* Content */}
             <div className="container max-w-[1200px] mx-auto px-5 relative z-20 hero-content text-text">
                 <h1 className="text-4xl md:text-6xl font-bold uppercase mb-5 leading-[1.1]">
-                    Forge Your <span className="text-primary">Legacy</span>
+                    Transform Your Body <br /> <span className="text-primary">In 12 Weeks!</span>
                 </h1>
                 <p className="text-lg md:text-xl text-[#B0B0B0] mb-10 max-w-[600px] mx-auto">
-                    Expert workout routines and personalized diet plans to sculpt your dream physique.
+                    Join the ultimate fitness revolution. Expert coaching, premium facilities, and a community that drives you to success.
                 </p>
                 <div className="flex flex-col md:flex-row justify-center gap-4">
-                    <a href="#workouts" className="inline-block px-8 py-3 rounded-full font-bold uppercase tracking-wider bg-primary text-background hover:-translate-y-1 hover:shadow-[0_10px_20px_rgba(212,255,0,0.2)] transition-all duration-300">
-                        Start Training
+                    <a href="#pricing" className="inline-block px-8 py-3 rounded-full font-bold uppercase tracking-wider bg-primary text-background hover:-translate-y-1 hover:shadow-[0_10px_20px_rgba(212,255,0,0.2)] transition-all duration-300">
+                        Join Now
                     </a>
-                    <a href="#diet-plans" className="inline-block px-8 py-3 rounded-full font-bold uppercase tracking-wider border-2 border-primary text-primary hover:bg-primary hover:text-background transition-all duration-300">
-                        View Diet Plans
+                    <a href="#workouts" className="inline-block px-8 py-3 rounded-full font-bold uppercase tracking-wider border-2 border-primary text-primary hover:bg-primary hover:text-background transition-all duration-300">
+                        Explore Classes
                     </a>
                 </div>
             </div>

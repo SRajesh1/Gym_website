@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer id="contact" className="py-12 bg-[#0a0a0a] border-t border-white/5 text-center">
+        <footer className="py-12 bg-[#0a0a0a] border-t border-white/5 text-center">
             <div className="max-w-[1200px] mx-auto px-5">
                 <div className="text-2xl font-bold uppercase mb-5">
                     Iron<span className="text-primary">Forge</span>
