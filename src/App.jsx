@@ -30,7 +30,6 @@ function App() {
       <Roadmap />
       <Testimonials />
       <BMICalculator />
-     
       <BlogSection />
       <Pricing />
       <LeadCapture />

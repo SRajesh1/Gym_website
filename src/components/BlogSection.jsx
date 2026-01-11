@@ -28,11 +28,10 @@ const BlogSection = () => {
     return (
         <section id="blog" className="py-20 bg-background-darker text-text">
             <div className="container max-w-[1200px] mx-auto px-5">
-                <div className="flex justify-between items-end mb-12">
+                <div className="mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold uppercase">
                         Fitness <span className="text-primary">Journal</span>
                     </h2>
-                    <a href="#" className="hidden md:inline-block text-primary font-bold uppercase hover:underline">View All Articles <i className="fas fa-arrow-right ml-2"></i></a>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -59,9 +58,6 @@ const BlogSection = () => {
                             <span className="text-primary font-bold uppercase text-sm group-hover:underline">Read More</span>
                         </div>
                     ))}
-                </div>
-                <div className="mt-10 text-center md:hidden">
-                    <a href="#" className="text-primary font-bold uppercase hover:underline">View All Articles <i className="fas fa-arrow-right ml-2"></i></a>
                 </div>
             </div>
         </section>
