@@ -111,7 +111,7 @@ const Exercises = () => {
                 { title: "Bicep Curl Form Basics", videoId: "ykJmrZ5v0Oo", duration: "7:40", difficulty: "Beginner" },
                 { title: "Barbell vs Dumbbell Curls", videoId: "sAq_ocpRh_I", duration: "9:15", difficulty: "Intermediate" },
                 { title: "Hammer Curls Tutorial", videoId: "zC3nLlEvin4", duration: "6:30", difficulty: "Beginner" },
-                { title: "Advanced Bicep Techniques", videoId: "dN1iCMO_SfU", duration: "12:20", difficulty: "Advanced" }
+                { title: "The Best And Worst Biceps Exercises", videoId: "GNO4OtYoCYk", duration: "16:23", difficulty: "Advanced" }
             ]
         },
         {
@@ -123,7 +123,7 @@ const Exercises = () => {
                 { title: "Tricep Dips Tutorial", videoId: "6kALZikXxLc", duration: "6:50", difficulty: "Beginner" },
                 { title: "Bench Dips vs Bar Dips", videoId: "yN6Q1UI_xkE", duration: "8:35", difficulty: "Intermediate" },
                 { title: "Weighted Dips Progression", videoId: "2z8JmcrW-As", duration: "10:10", difficulty: "Advanced" },
-                { title: "Ring Dips Mastery", videoId: "yN3CMAMvaGs", duration: "11:45", difficulty: "Advanced" }
+                { title: "Ring Dip Tutorial | With Progressions", videoId: "EyA7h8zCmkQ", duration: "2:52", difficulty: "Advanced" }
             ]
         },
         {
@@ -135,7 +135,7 @@ const Exercises = () => {
                 { title: "Plank Form Tutorial", videoId: "ASdvN_XEl_c", duration: "5:20", difficulty: "Beginner" },
                 { title: "Plank Variations for Core", videoId: "pvIjsG5Svck", duration: "8:00", difficulty: "Intermediate" },
                 { title: "Side Plank Technique", videoId: "K2VljzCC16g", duration: "6:45", difficulty: "Intermediate" },
-                { title: "Advanced Plank Progressions", videoId: "TgZwYw1LZaU", duration: "9:30", difficulty: "Advanced" }
+                { title: "Advanced Plank Progressions for Core Strengthening", videoId: "tGtm6Dd1DI8", duration: "4:10", difficulty: "Advanced" }
             ]
         },
         {
@@ -146,8 +146,8 @@ const Exercises = () => {
             videos: [
                 { title: "Crunch Basics Tutorial", videoId: "Xyd_fa5zoEU", duration: "5:15", difficulty: "Beginner" },
                 { title: "Bicycle Crunches Guide", videoId: "1we3bh9uhqY", duration: "7:10", difficulty: "Beginner" },
-                { title: "Ab Crunch Variations", videoId: "4lYMJmXaBrI", duration: "9:25", difficulty: "Intermediate" },
-                { title: "Weighted Crunch Techniques", videoId: "sWjTnBmCHTY", duration: "8:50", difficulty: "Advanced" }
+                { title: "20 Crunch Variations For Beginner To Advanced", videoId: "i0R_XwJ8k_E", duration: "8:30", difficulty: "Intermediate" },
+                { title: "This Is The CORRECT Way To Do Cable Crunches..", videoId: "QR3vANGukK8", duration: "5:11", difficulty: "Advanced" }
             ]
         }
     ];
