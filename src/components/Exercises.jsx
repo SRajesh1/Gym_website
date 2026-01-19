@@ -275,11 +275,11 @@ const Exercises = () => {
                         {/* Modal Header */}
                         <div className="sticky top-0 z-10 bg-background-darker/95 backdrop-blur-lg border-b border-white/10 pt-7 pb-5 px-5 md:pt-8 md:pb-6 md:px-6 flex items-center justify-between gap-4">
                             <div className="flex items-center gap-3 md:gap-4 flex-1 min-w-0">
-                                <div className="mt-6 w-12 h-12 md:w-16 md:h-16 flex-shrink-0 rounded-lg overflow-hidden border-2 border-primary/50">
+                                <div className="mt-14 w-12 h-12 md:w-16 md:h-16 flex-shrink-0 rounded-lg overflow-hidden border-2 border-primary/50">
                                     <img src={selectedExercise.img} alt={selectedExercise.name} className="w-full h-full object-cover" />
                                 </div>
                                 <div className="flex-1 min-w-0 py-1">
-                                    <h3 className=" mt-6 text-xl md:text-2xl lg:text-3xl font-bold uppercase leading-normal break-words mb-1">{selectedExercise.name}</h3>
+                                    <h3 className=" mt-14 text-xl md:text-2xl lg:text-3xl font-bold uppercase leading-normal break-words mb-1">{selectedExercise.name}</h3>
                                     <span className="inline-block px-2 md:px-3 py-1 bg-primary/20 text-primary text-xs uppercase tracking-wider rounded-full border border-primary/30">
                                         {selectedExercise.group}
                                     </span>
