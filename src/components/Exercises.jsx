@@ -207,7 +207,7 @@ const Exercises = () => {
 
     return (
         <>
-            <section id="exercises" className="py-20 -mt-10">
+            <section id="exercises" className="py-20 -mt-10 -mb-12">
                 <div className="max-w-[1200px] mx-auto px-5">
                     <h2 className="text-3xl md:text-4xl font-bold text-center uppercase tracking-wider mb-12">
                         Exercise <span className="text-primary">Library</span>

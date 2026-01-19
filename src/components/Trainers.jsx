@@ -26,9 +26,9 @@ const Trainers = () => {
     ];
 
     return (
-        <section id="trainers" className="py-20 bg-background text-text -mt-8">
+        <section id="trainers" className="py-20 bg-background text-text -mt-8 -mb-10">
             <div className="container max-w-[1200px] mx-auto px-5">
-                <h2 className="text-3xl md:text-4xl font-bold text-center uppercase tracking-wider mb-12">
+                <h2 className="text-3xl md:text-4xl font-bold text-center uppercase tracking-wider mb-12 -mt-4">
                     Expert <span className="text-primary">Trainers</span>
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

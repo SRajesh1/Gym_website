@@ -44,12 +44,12 @@ const ClassSchedule = () => {
     const days = Object.keys(schedule);
 
     return (
-        <section id="schedule" className="py-20 bg-background-darker text-text relative overflow-hidden">
+        <section id="schedule" className="py-20 bg-background-darker text-text relative overflow-hidden -mb-10">
             {/* Decorative BG */}
             <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-primary/5 blur-[120px] rounded-full pointer-events-none"></div>
 
             <div className="container max-w-[1200px] mx-auto px-5 relative z-10">
-                <h2 className="text-3xl md:text-4xl font-bold text-center uppercase tracking-wider mb-12">
+                <h2 className="text-3xl md:text-4xl font-bold text-center uppercase tracking-wider mb-12 -mt-4">
                     Class <span className="text-primary">Schedule</span>
                 </h2>
 

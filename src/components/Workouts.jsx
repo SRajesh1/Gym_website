@@ -72,9 +72,9 @@ const Workouts = () => {
     ];
 
     return (
-        <section id="workouts" className="py-20 bg-[#0a0a0a]">
+        <section id="workouts" className="py-20 bg-[#0a0a0a] -mb-10">
             <div className="max-w-[1200px] mx-auto px-5">
-                <h2 className="text-3xl md:text-4xl font-bold text-center uppercase tracking-wider mb-12">
+                <h2 className="text-3xl md:text-4xl font-bold text-center uppercase tracking-wider mb-12 -mt-6">
                     Workout <span className="text-primary">Styles</span>
                 </h2>
 

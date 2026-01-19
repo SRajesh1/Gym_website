@@ -26,9 +26,9 @@ const Testimonials = () => {
     ];
 
     return (
-        <section id="testimonials" className="py-20 bg-background-darker text-text relative">
+        <section id="testimonials" className="py-20 bg-background-darker text-text relative -mb-16">
             <div className="container max-w-[1200px] mx-auto px-5">
-                <h2 className="text-3xl md:text-4xl font-bold text-center uppercase tracking-wider mb-12 -mt-16">
+                <h2 className="text-3xl md:text-4xl font-bold text-center uppercase tracking-wider mb-12 -mt-24">
                     Success <span className="text-primary">Stories</span>
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
