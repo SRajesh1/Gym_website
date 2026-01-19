@@ -88,7 +88,7 @@ const Roadmap = () => {
     return (
         <section id="roadmap" className="py-20 bg-[#0a0a0a]">
             <div className="max-w-[1200px] mx-auto px-5">
-                <h2 className="text-4xl text-center mb-2 uppercase tracking-widest font-bold">
+                <h2 className="-mt-4 text-3xl md:text-4xl font-bold text-center uppercase tracking-wider mb-2">
                     Fitness Training <span className="text-primary">Roadmap</span>
                 </h2>
                 <p className="text-center text-[#B0B0B0] mb-12">A structured journey from absolute beginner to elite athlete.</p>

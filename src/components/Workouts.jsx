@@ -74,7 +74,7 @@ const Workouts = () => {
     return (
         <section id="workouts" className="py-20 bg-[#0a0a0a]">
             <div className="max-w-[1200px] mx-auto px-5">
-                <h2 className="text-4xl text-center mb-12 uppercase tracking-widest font-bold">
+                <h2 className="text-3xl md:text-4xl font-bold text-center uppercase tracking-wider mb-12">
                     Workout <span className="text-primary">Styles</span>
                 </h2>
 

@@ -28,8 +28,8 @@ const BlogSection = () => {
     return (
         <section id="blog" className="py-20 bg-background-darker text-text">
             <div className="container max-w-[1200px] mx-auto px-5">
-                <div className="mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold uppercase">
+                <div className="mb-12 text-center">
+                    <h2 className="-mt-8 text-3xl md:text-4xl font-bold uppercase tracking-wider">
                         Fitness <span className="text-primary">Journal</span>
                     </h2>
                 </div>

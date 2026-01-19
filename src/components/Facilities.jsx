@@ -14,7 +14,7 @@ const Facilities = () => {
     return (
         <section id="facilities" className="py-20 bg-background text-text">
             <div className="container max-w-[1200px] mx-auto px-5">
-                <h2 className="text-3xl md:text-4xl font-bold text-center uppercase mb-12">
+                <h2 className="text-3xl md:text-4xl font-bold text-center uppercase tracking-wider mb-16 -mt-20">
                     World Class <span className="text-primary">Facilities</span>
                 </h2>
 

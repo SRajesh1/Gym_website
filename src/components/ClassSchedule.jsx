@@ -49,7 +49,7 @@ const ClassSchedule = () => {
             <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-primary/5 blur-[120px] rounded-full pointer-events-none"></div>
 
             <div className="container max-w-[1200px] mx-auto px-5 relative z-10">
-                <h2 className="text-3xl md:text-4xl font-bold text-center uppercase mb-12">
+                <h2 className="text-3xl md:text-4xl font-bold text-center uppercase tracking-wider mb-12">
                     Class <span className="text-primary">Schedule</span>
                 </h2>
 
