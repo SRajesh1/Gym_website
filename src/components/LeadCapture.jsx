@@ -28,15 +28,15 @@ const LeadCapture = () => {
                         <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
                             <div>
                                 <label className="block text-text text-sm font-bold uppercase mb-2">Name</label>
-                                <input type="text" placeholder="John Doe" className="w-full bg-[#2a2a2a] text-text border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" />
+                                <input type="text" placeholder="Enter your name" className="w-full bg-[#2a2a2a] text-text border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" />
                             </div>
                             <div>
                                 <label className="block text-text text-sm font-bold uppercase mb-2">Email</label>
-                                <input type="email" placeholder="john@gmail.com" className="w-full bg-[#2a2a2a] text-text border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" />
+                                <input type="email" placeholder="Enter your email" className="w-full bg-[#2a2a2a] text-text border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" />
                             </div>
                             <div>
                                 <label className="block text-text text-sm font-bold uppercase mb-2">Phone</label>
-                                <input type="tel" placeholder="Mobile Number" className="w-full bg-[#2a2a2a] text-text border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" />
+                                <input type="tel" placeholder="Enter your mobile number" className="w-full bg-[#2a2a2a] text-text border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" />
                             </div>
                             <button type="submit" className="w-full bg-primary text-background font-bold uppercase px-6 py-4 rounded-lg hover:shadow-[0_4px_14px_0_rgba(212,255,0,0.39)] hover:-translate-y-1 transition-all duration-300 mt-2">
                                 Get Free Trial
