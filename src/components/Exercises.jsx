@@ -13,9 +13,9 @@ const Exercises = () => {
             img: "/images/BenchPress.jpg",
             videos: [
                 { title: "Proper Bench Press Form", videoId: "rT7DgCr-3pg", duration: "8:45", difficulty: "Beginner" },
-                { title: "Common Bench Press Mistakes", videoId: "BYKScL2sgCs", duration: "10:22", difficulty: "Intermediate" },
+                // { title: "Common Bench Press Mistakes", videoId: "BYKScL2sgCs", duration: "10:22", difficulty: "Intermediate" },
                 { title: "Advanced Bench Press Techniques", videoId: "esQi683XR44", duration: "12:15", difficulty: "Advanced" },
-                { title: "Bench Press for Powerlifting", videoId: "34ICPhTAIlw", duration: "15:30", difficulty: "Advanced" }
+                //{ title: "Bench Press for Powerlifting", videoId: "34ICPhTAIlw", duration: "15:30", difficulty: "Advanced" }
             ]
         },
         {
@@ -26,8 +26,8 @@ const Exercises = () => {
             videos: [
                 { title: "Perfect Push-Up Form Tutorial", videoId: "IODxDxX7oi4", duration: "6:30", difficulty: "Beginner" },
                 { title: "Push-Up Variations for Muscle", videoId: "0GsVJsS6474", duration: "9:12", difficulty: "Intermediate" },
-                { title: "100 Push-Ups Challenge Guide", videoId: "AGiWSCaE1kM", duration: "8:45", difficulty: "Intermediate" },
-                { title: "Advanced Push-Up Progressions", videoId: "5L4kdK-vqBY", duration: "11:20", difficulty: "Advanced" }
+                //{ title: "100 Push-Ups Challenge Guide", videoId: "AGiWSCaE1kM", duration: "8:45", difficulty: "Intermediate" },
+                //{ title: "Advanced Push-Up Progressions", videoId: "5L4kdK-vqBY", duration: "11:20", difficulty: "Advanced" }
             ]
         },
         {
@@ -37,9 +37,9 @@ const Exercises = () => {
             img: "/images/Pullup.jpg",
             videos: [
                 { title: "How to Do Your First Pull-Up", videoId: "eGo4IYlbE5g", duration: "10:15", difficulty: "Beginner" },
-                { title: "Pull-Up Form Breakdown", videoId: "HRrbKGzqII0", duration: "7:50", difficulty: "Intermediate" },
-                { title: "Weighted Pull-Ups Tutorial", videoId: "tB3X4TjTIes", duration: "9:30", difficulty: "Advanced" },
-                { title: "Pull-Up Variations for Back", videoId: "cwF1BRGvZH0", duration: "12:00", difficulty: "Intermediate" }
+                //{ title: "Pull-Up Form Breakdown", videoId: "HRrbKGzqII0", duration: "7:50", difficulty: "Intermediate" },
+                //{ title: "Weighted Pull-Ups Tutorial", videoId: "tB3X4TjTIes", duration: "9:30", difficulty: "Advanced" },
+                //{ title: "Pull-Up Variations for Back", videoId: "cwF1BRGvZH0", duration: "12:00", difficulty: "Intermediate" }
             ]
         },
         {
@@ -49,8 +49,8 @@ const Exercises = () => {
             img: "/images/Deadlift.jpg",
             videos: [
                 { title: "Deadlift Form for Beginners", videoId: "op9kVnSso6Q", duration: "11:40", difficulty: "Beginner" },
-                { title: "Common Deadlift Errors", videoId: "hCDzSR6bW10", duration: "8:25", difficulty: "Intermediate" },
-                { title: "Sumo vs Conventional Deadlift", videoId: "VL5ZWlcdOv8", duration: "13:10", difficulty: "Intermediate" },
+                //{ title: "Common Deadlift Errors", videoId: "hCDzSR6bW10", duration: "8:25", difficulty: "Intermediate" },
+                //{ title: "Sumo vs Conventional Deadlift", videoId: "VL5ZWlcdOv8", duration: "13:10", difficulty: "Intermediate" },
                 { title: "Deadlift Technique Mastery", videoId: "VGZrATR1O4E", duration: "15:45", difficulty: "Advanced" }
             ]
         },
@@ -62,8 +62,8 @@ const Exercises = () => {
             videos: [
                 { title: "Squat Basics for Beginners", videoId: "ultWZbUMPL8", duration: "9:20", difficulty: "Beginner" },
                 { title: "How to Squat Properly", videoId: "gcNh17Ckjgg", duration: "10:05", difficulty: "Intermediate" },
-                { title: "Front Squat vs Back Squat", videoId: "yQuCi2h_kNI", duration: "11:30", difficulty: "Intermediate" },
-                { title: "ATG Squats Technique", videoId: "VZkDJz42354", duration: "8:45", difficulty: "Advanced" }
+                //{ title: "Front Squat vs Back Squat", videoId: "yQuCi2h_kNI", duration: "11:30", difficulty: "Intermediate" },
+                //{ title: "ATG Squats Technique", videoId: "VZkDJz42354", duration: "8:45", difficulty: "Advanced" }
             ]
         },
         {
@@ -86,8 +86,8 @@ const Exercises = () => {
             videos: [
                 { title: "Overhead Press Form Guide", videoId: "2yjwXTZQDDI", duration: "8:30", difficulty: "Beginner" },
                 { title: "Military Press Technique", videoId: "F3QY5vMz_6I", duration: "9:45", difficulty: "Intermediate" },
-                { title: "Standing vs Seated OHP", videoId: "wol7Hko8RhY", duration: "7:20", difficulty: "Intermediate" },
-                { title: "Push Press Explosive Power", videoId: "iaBVSJm78ko", duration: "11:15", difficulty: "Advanced" }
+                //{ title: "Standing vs Seated OHP", videoId: "wol7Hko8RhY", duration: "7:20", difficulty: "Intermediate" },
+                //{ title: "Push Press Explosive Power", videoId: "iaBVSJm78ko", duration: "11:15", difficulty: "Advanced" }
             ]
         },
         {
@@ -97,9 +97,9 @@ const Exercises = () => {
             img: "/images/LateralRaises.jpg",
             videos: [
                 { title: "Lateral Raise Tutorial", videoId: "3VcKaXpzqRo", duration: "6:10", difficulty: "Beginner" },
-                { title: "Perfect Lateral Raise Form", videoId: "q5sNYB1Q6aM", duration: "8:25", difficulty: "Beginner" },
+                //{ title: "Perfect Lateral Raise Form", videoId: "q5sNYB1Q6aM", duration: "8:25", difficulty: "Beginner" },
                 { title: "Lateral Raise Variations", videoId: "kDqklk1ZESo", duration: "10:00", difficulty: "Intermediate" },
-                { title: "Cable Lateral Raise Tips", videoId: "PPrzBWZDOhA", duration: "7:50", difficulty: "Intermediate" }
+                //{ title: "Cable Lateral Raise Tips", videoId: "PPrzBWZDOhA", duration: "7:50", difficulty: "Intermediate" }
             ]
         },
         {
@@ -122,8 +122,8 @@ const Exercises = () => {
             videos: [
                 { title: "Tricep Dips Tutorial", videoId: "6kALZikXxLc", duration: "6:50", difficulty: "Beginner" },
                 { title: "Bench Dips vs Bar Dips", videoId: "yN6Q1UI_xkE", duration: "8:35", difficulty: "Intermediate" },
-                { title: "Weighted Dips Progression", videoId: "2z8JmcrW-As", duration: "10:10", difficulty: "Advanced" },
-                { title: "Ring Dip Tutorial | With Progressions", videoId: "EyA7h8zCmkQ", duration: "2:52", difficulty: "Advanced" }
+                //{ title: "Weighted Dips Progression", videoId: "2z8JmcrW-As", duration: "10:10", difficulty: "Advanced" },
+                //{ title: "Ring Dip Tutorial | With Progressions", videoId: "EyA7h8zCmkQ", duration: "2:52", difficulty: "Advanced" }
             ]
         },
         {
@@ -146,8 +146,8 @@ const Exercises = () => {
             videos: [
                 { title: "Crunch Basics Tutorial", videoId: "Xyd_fa5zoEU", duration: "5:15", difficulty: "Beginner" },
                 { title: "Bicycle Crunches Guide", videoId: "1we3bh9uhqY", duration: "7:10", difficulty: "Beginner" },
-                { title: "20 Crunch Variations For Beginner To Advanced", videoId: "i0R_XwJ8k_E", duration: "8:30", difficulty: "Intermediate" },
-                { title: "This Is The CORRECT Way To Do Cable Crunches..", videoId: "QR3vANGukK8", duration: "5:11", difficulty: "Advanced" }
+                //{ title: "20 Crunch Variations For Beginner To Advanced", videoId: "i0R_XwJ8k_E", duration: "8:30", difficulty: "Intermediate" },
+                //{ title: "This Is The CORRECT Way To Do Cable Crunches..", videoId: "QR3vANGukK8", duration: "5:11", difficulty: "Advanced" }
             ]
         }
     ];
