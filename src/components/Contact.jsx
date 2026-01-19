@@ -14,17 +14,17 @@ const Contact = () => {
                             <div>
                                 <h4 className="text-xl font-bold uppercase mb-2 text-primary">Visit Us</h4>
                                 <p className="text-text-muted">
-                                    123 Fitness Blvd, <br />
-                                    Muscle City, CA 90210
+                                    Fitness circle, <br />
+                                    Hyderabad, CA 90210 
                                 </p>
                             </div>
                             <div>
                                 <h4 className="text-xl font-bold uppercase mb-2 text-primary">Contact</h4>
                                 <p className="text-text-muted mb-1">
-                                    <i className="fas fa-phone md:mr-2"></i> (555) 123-4567
+                                    <i className="fas fa-phone md:mr-2"></i> +91 654892547
                                 </p>
                                 <p className="text-text-muted">
-                                    <i className="fas fa-envelope md:mr-2"></i> info@ironforge.gym
+                                    <i className="fas fa-envelope md:mr-2"></i> info@ironforge.com  
                                 </p>
                             </div>
                             <div>
